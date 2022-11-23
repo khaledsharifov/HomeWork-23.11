@@ -1,0 +1,571 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 10px 20px;
+}
+.nav ul a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(222, 222, 222);
+}
+.nav ul a:hover{
+    background: linear-gradient(94.26deg, #b06bff 9.51%, #5f46ff 90.23%);
+    border-radius: 50px;
+    color: white;
+}
+.nav button{
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px 15px;
+    color: aliceblue;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+}
+.nav button:hover{
+    background: linear-gradient(94.26deg, #6929b3 9.51%, #4427ff 90.23%);
+    border-radius: 50px;
+}
+.container{
+    background-image: url(/images/main-screen__bgc.png);
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 80%;
+}
+.perviy h1{
+    color: white;
+    font-size: 50px;
+    padding: 20px 0px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 140%;
+}
+.perviy p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.4
+}
+.perviy h2{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 140%;
+}
+.kurs{
+    width: 3%;
+    margin-right: 20px;
+    padding: 10px 30px;
+    background-color: rgb(29, 29, 29);
+}
+.kurss{
+    display: flex;
+}
+.zakazat{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content:space-between;
+    padding: 15px;
+}
+.all{
+    background: #121212;
+    position: absolute;
+    width: 100%;
+    top: 650px;
+}
+.pgr{
+    display: flex;
+    justify-content: space-between;
+}
+.gradient{
+    height: 6px;
+    background-color: rgb(255, 255, 255);
+}
+.black{
+    height: 6px;
+    width: 60%;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.zarab{
+    flex-grow: 0.6  ;
+}
+.but{
+    display: flex;align-items: center;
+}
+.but button{
+    cursor: pointer;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+border-radius: 50px;
+}
+.but button:hover{
+    background: linear-gradient(94.78deg, #f12c1e 11.19%, #430444 93.72%);
+
+}
+.zakazat p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+opacity: 0.4;
+padding: 8px 0px;
+}
+
+.pp{
+    display: flex;
+    justify-content: space-between;
+}
+p.ppp{
+    opacity: 1;
+    padding-left: 20px;
+    font-weight: 800;
+}
+.pppp{
+    display: flex;
+}
+.background{
+    background-image: url(/images/bgc.png);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+.photochem{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+.cent{
+    width: 80%;
+}
+.image img{
+    margin-right: 100px;
+}
+.chemm{
+    display: flex;
+    align-items: center;
+}
+.chem p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #FFFFFF;
+}
+.chem h1{
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.bis{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.bistr h1{
+    margin-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.bistr p{
+    margin-bottom: 100px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+.lorem{
+    width: 25%;
+}
+.grad{
+    height: 70px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.gradd{
+    margin-top: 10px;
+    display: flex;
+    height: 50px;
+    background: linear-gradient(94.26deg, #7C6AFA 9.51%, #C89AFC 90.23%);
+}
+.lorem h1{
+    padding-bottom: 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 140%;
+color: #FFFFFF;
+
+}
+.lorem p{
+    padding-right: 30px;
+    padding-top: 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+color: #FFFFFF;
+opacity: 0.5;
+}
+.lorem4{
+    display: flex;
+    margin-bottom: 200px;
+}
+#pp{
+    margin-top: 8px;
+}
+#ppp{
+    margin-top: 20px;
+}
+#pppp{
+    margin-top: 30px;
+}
+.graddd{
+    margin-top: 20px;
+    display: flex;
+    height: 30px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.gradddd{
+    margin-top: 30px;
+    display: flex;
+    height: 10px;
+    background: linear-gradient(94.26deg, #7C6AFA 9.51%, #C89AFC 90.23%);
+}
+.tolko{ 
+    width: 27%;
+    text-align: center;
+}
+.tolko h2{
+    padding: 30px 0px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+}
+.tolko img{
+    margin-bottom: 20px;
+}
+.poluchit h1{
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+}
+.poluchit p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.8;
+}
+.all3{
+    display: flex;
+    justify-content: space-between;
+}
+.poluchit{
+    margin-bottom: 200px;
+}
+.part h1{
+    margin-left: 50px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.part{
+    display: flex;
+}
+.msi img{
+    padding: 50px;
+    border-left: 1px solid white;
+}
+.msi{
+    margin-top: 50px;
+}
+.msi .top{
+    border-bottom: 1px solid white;
+}
+#im{
+    border: none;
+}
+.partner{
+    margin-bottom: 200px;
+}
+.program{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.prog h1{
+    padding: 50px 0px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;  
+text-align: center;
+color: #FFFFFF;
+}
+.prog p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.5;
+}
+.prog{
+    margin-bottom: 100px;
+}
+.krasiv{
+    display: flex;
+    justify-content: center;
+}
+.krasiv span{
+    font-family: 'Roboto';
+    text-align: end;
+    padding:10px;
+    color: white;
+}
+.krasiv p{
+    color: white;
+    font-family: 'Roboto';
+
+}
+.krasiv .left{
+    width: 30%;
+    padding: 50px 0px;
+    border-right: 6px solid rgb(167, 16, 255);
+}
+
+.krasiv .right{
+    margin-top: 100px;
+    width: 30%;
+}
+.di{
+    display: flex;
+   justify-content: right;
+    width: 20%;
+    height: 0.1vh;
+    background-color: #afafaf;
+}
+.nedel{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.nedell{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.nedell span{
+    text-align: start;
+    font-family: 'Roboto';
+}
+#cpp{
+    margin-left: 120px;
+}
+#cppl{
+    margin-right: 120px;
+}
+.cppp{
+    padding: 30px 0px;
+
+}
+.cpppo{
+    padding: 30px 0px;
+    margin-top: 10px;
+}
+.krasiv p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+.vash{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.vash h1{
+    margin-left: 50px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+color: #FFFFFF;
+
+}
+.dmitri{
+    width: 30%;
+    text-align: center;
+}
+.dmitri img{
+    margin-bottom: 20px;
+    width: 50%;
+}
+.dmitri h3{
+ padding: 10px;
+ color: white;
+}
+.dmitri button{
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.dmitri button:hover{
+    background-color: #d5d5d5;
+    color: black;
+    border: 1px solid black;
+}
+.dmitri p{
+    color: white;
+    opacity: 0.6;
+}
+.mans{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+.stat h1{
+    color: white;
+    padding: 30px 0px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+}
+.stat p{
+    font-family: 'Roboto';
+    color: white;
+    padding-bottom: 30px;
+}
+.icons i{
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.stat{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.icons{
+    padding: 40px;
+}
+#inp{
+    width: 300px;
+    height: 35px;
+    border-radius: 50px;
+    opacity: 0.4;
+    padding-left: 20px;
+}
+
+#sub{
+    color: white;
+    padding: 10px 40px;
+    border-radius: 50px;
+    position: relative;
+    right: 35px;
+    border: none;
+    background: linear-gradient(94.78deg, #d62316 11.19%, #680569 93.72%);
+    cursor: pointer;
+}
+#sub:hover{
+    background: linear-gradient(94.78deg, #680569 11.19%, #d62316 93.72%);
+}
+.email{
+margin-left: 50px;
+}
+.icons i{
+    cursor: pointer;
+    margin: 0px 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.icons i:hover{
+    background: linear-gradient(94.26deg, #8215ff 9.51%, #4631d0 90.23%);
+}
+
